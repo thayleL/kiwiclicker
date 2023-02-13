@@ -1,0 +1,14 @@
+body {
+	font-family: MONOSPACE;
+	font-size: 16px;
+}
+
+#shapeland {
+	background-color: #ccc;
+	width: 458px;
+	text-align: center;
+}
+
+#shapeland i {
+	font-size: 12px;
+}

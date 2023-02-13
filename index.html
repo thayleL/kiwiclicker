@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SHAPELAND</title>
+		<link rel="stylesheet" type="text/css" href="interface.css">
+	</head>
+	<body>
+		<div id="shapeland">
+		<p><b><s>===</s></b>MEASUREMENTS<b><s>=====================================</s></b></p>
+		<p><span id="inches">0</span>'</p>
+		<p><b><s>===</s></b>ACTIONS<b><s>==========================================</s></b></p>
+		<button onclick="produce(true)">Take a Step</button>
+		<button onclick="buySquare()">See a Square</button>
+		<button id="buttonpentagon" onclick="buyPentagon()" style="display:none">See a Pentagon</button>
+		<p><b><s>===</s></b>RESOURCES<b><s>========================================</s></b></p>
+		<p id="squareinfo">SQUARES: <span id="squares">0</span><br />
+		<i>Perceiving one will cost <span id="squareCost">4</span>'.</i><br />
+		<i><span id="squareblurbsteps"></span><span id="squareblurbrank"></span></i></p>
+		<p id="pentagoninfo" style="display:none"><br />PENTAGONS: <span id="pentagons">0</span><br />
+		<i>Perceiving one will cost <span id="pentagonCost">2</span> squares.</i>
+		<i><span id="pentagonblurb"></span><span id="pentagonblurbrank"></span></i></p>
+		<p><b><s>====================================================</s></b></p>
+		</div>
+		<script type="text/javascript" src="main.js"></script>
+	</body>	
+</html>
